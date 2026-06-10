@@ -1,24 +1,3 @@
-"""
-Cricket Simulator v7.0
-======================
-All 13 features added on top of the complete v6.6 codebase.
-Requires Python 3.8+ and pygame 2.x
-
-NEW FEATURES:
-  F1  – Tournament System (T20 WC, Champions Trophy, Tri-Series, Bilateral)
-  F2  – Ball-by-Ball mode with live scoreboard
-  F3  – Manual player control (openers, next batter, bowler choice)
-  F4  – Field settings (Defensive / Balanced / Attacking) with visual mini-map
-  F5  – Post-match hub (scorecard, PoM, Play Again / Return Home)
-  F6  – Realistic bowling types validated by bowler role
-  F7  – Per-over simulation-mode prompt (Ball-by-Ball vs Full Over)
-  F8  – Powerplay system with visual indicator
-  F9  – Advanced animations (coin-flip, bat swing, trajectory, fireworks)
-  F10 – Extended randomised commentary pool
-  F11 – Enhanced match AI (powerplay aggression, chase strategy, etc.)
-  F12 – Full statistics (SR, Economy, Fifties, Tons, 5-fers, Orange/Purple Cap)
-  F13 – Code quality (modular classes, comments, 60 FPS)
-"""
 
 import pygame, random, sys, math, copy
 pygame.init()
